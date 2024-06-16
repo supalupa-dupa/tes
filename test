@@ -1,0 +1,14 @@
+<html>
+  <body>
+    <iframe src="https://"></iframe>
+    <div>
+      <p>User-generated content here</p>
+      <button id="hidden-button" style="display: none;">Perform malicious action</button>
+      <script>
+        document.getElementById("hidden-button").addEventListener("click", function() {
+          // Malicious code here
+        });
+      </script>
+    </div>
+  </body>
+</html>
